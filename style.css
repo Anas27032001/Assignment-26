@@ -1,0 +1,101 @@
+
+*{
+margin: 0;
+padding: 0;
+}
+.header_logo{
+    width: 25%;
+    display: inline-block;
+    text-align: center;
+}
+.header_logo p {
+	font-size: 44px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: blue;
+}
+.header_left{
+    width: 70%;
+    display: inline-block;
+}
+.header_left ul{
+    text-align: right;
+}
+.header_left ul li {
+	display: inline-block;
+	margin: 0 21px;
+	font-size: 22px;
+}
+
+.cover{
+    text-align: center;
+    background-image: url(./photo/cover.jpg);
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 150px;
+
+}
+.cover h3 {
+	font-size: 26px;
+	font-weight: 300;
+	margin-top: 50px;
+}
+.cover h1 {
+	text-transform: uppercase;
+	font-size: 41px;
+	margin: 38px 0;
+	color:black ;
+}
+.cover a {
+	text-decoration: none;
+	background: #4272d7;
+	color: white;
+	padding: 15px 30px;
+	display: inline-block;
+	font-size: 20px;
+}
+.content{
+	margin: 20px 0;
+}
+.content .video_link {
+	width: 35%;
+	display: inline-block;
+	text-align: right;
+}
+.text{
+	width: 60%;
+	display: inline-block;
+}
+.contact{
+	margin: 50px 0;
+}
+.contact_left{
+	width: 30%;
+	text-align: center;
+	display: inline-block;
+}
+.contact_right{
+	width: 65%;
+	display: inline-block;
+	text-align: center;
+}
+.name{
+	width: 300px;
+	margin: 20px 0;
+}
+.email{
+	width: 300px;
+}
+.date{
+	width: 300px;
+	margin: 20px 0;
+}
+footer{
+	background-color: black;
+	padding: 10px 0;
+}
+footer p{
+	font-size: 20px;
+	text-align: center;
+	color: white;
+}
